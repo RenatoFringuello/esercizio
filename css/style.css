@@ -25,6 +25,9 @@ a{
     text-decoration: none;
     color:white;
 }
+img{
+    height: 100%;
+}
 /* ------------------------------ HEAEDER ------------------------------ */
 
 /* view options */
@@ -51,13 +54,17 @@ main > section{
     min-height: calc(100vh - 6rem);
     align-content:stretch;
 }
-article{
-    background-color: white;
-    /* problema */
-    /* min-height: 10rem; */
+.user{
     height: 6rem; 
     flex-basis: 11em;
     margin:0.2rem;
+}
+.user .icon-text{
+    background-color: #0008;
+    color: white;
+    bottom: 0;
+    padding: 0.3rem;
+    font-size: 0.8rem;
 }
 
 /* ------------------------------ FOOTER ------------------------------ */
@@ -109,6 +116,9 @@ footer .name{
 }
 .p-absolute{
     position: absolute;
+}
+.p-relative{
+    position: relative;
 }
 
 .icon-container{
