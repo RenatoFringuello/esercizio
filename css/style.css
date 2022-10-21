@@ -45,7 +45,6 @@ header div{
 }
 /* ------------------------------ MAIN ------------------------------ */
 main{
-    /* min-height: 100vh; */
     background-color: black;
     padding: 2rem 0 4rem;
     
@@ -56,7 +55,7 @@ main > section{
 }
 .user{
     height: 6rem; 
-    flex-basis: 11em;
+    flex-basis: 11rem;
     margin:0.2rem;
 }
 .user .icon-text{
